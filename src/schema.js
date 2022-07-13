@@ -45,6 +45,8 @@ const typeDefs = gql`
     numberOfViews: Int
     "The track's complete array of Modules"
     modules: [Module!]!
+    "The track's full video duration, in seconds"
+    durationInSeconds: Int
   }
 
   "Author of a complete Track or a Module"
